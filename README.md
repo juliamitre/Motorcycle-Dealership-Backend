@@ -1,6 +1,6 @@
 # Motorcycle Dealership Backend
 
-This is the backend for the **MotorcycleXpert** web application — an e-commerce-style platform for browsing and purchasing motorcycles. The backend is built with **Spring Boot**, uses **JWT for authentication**, integrates with **Stripe for payments**, generates **PDF invoices**, and sends them via **email**.
+This is the backend for a web application — an e-commerce-style platform for browsing and purchasing motorcycles. The backend is built with **Spring Boot**, uses **JWT for authentication**, integrates with **Stripe for payments**, generates **PDF invoices**, and sends them via **email**.
 
 ---
 ## 🚀 Features
@@ -129,7 +129,7 @@ Use Gmail App Password — not your regular password
  Deploy (Render, Heroku, Fly.io, etc.)
 
 👨‍💻 Author
-Built by Dona Juana
+Built by Julia
 # Motorcycle Dealership Backend
 
 This is the backend for the Motorcycle Dealership application, built with Spring Boot.
