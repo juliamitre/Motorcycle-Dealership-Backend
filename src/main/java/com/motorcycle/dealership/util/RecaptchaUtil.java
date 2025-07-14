@@ -20,6 +20,14 @@ public class RecaptchaUtil {
     private static final String RECAPTCHA_VERIFY_URL = "https://www.google.com/recaptcha/api/siteverify";
 
     public boolean verifyRecaptcha(String recaptchaResponse) {
+        // --- TEMPORARY BYPASS FOR LOCAL DEVELOPMENT/PRESENTATION ---
+        // For a real application, you MUST remove this line!
+        log.warn("ReCAPTCHA verification bypassed for development purposes.");
+        return true;
+        // -------------------------------------------------------------
+
+        // The original code (uncomment this for production):
+        /*
         if (recaptchaResponse == null || recaptchaResponse.isBlank()) {
             return false;
         }
@@ -42,6 +50,7 @@ public class RecaptchaUtil {
             log.error("Error during ReCAPTCHA verification request", e);
             return false;
         }
+        */
     }
 
     // Private inner class to map the JSON response from Google

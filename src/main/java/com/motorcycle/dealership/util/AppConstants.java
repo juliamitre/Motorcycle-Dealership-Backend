@@ -5,6 +5,7 @@ public final class AppConstants {
     private AppConstants() {}
 
     public static final int OTP_LENGTH = 6;
-    public static final int OTP_EXPIRATION_MINUTES = 10;
-    public static final int RESET_TOKEN_EXPIRATION_HOURS = 1;
+    public static final int OTP_EXPIRATION_MINUTES = 70;
+    // RESET_TOKEN_EXPIRATION_MINUTES is no longer used because
+    // reset tokens are set to never expire for demo purposes in AuthService.java
 }
